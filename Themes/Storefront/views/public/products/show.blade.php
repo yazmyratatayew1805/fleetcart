@@ -55,6 +55,13 @@
 
                         <div class="product-details-info">
                             <div class="details-info-top">
+                                <a href="{{ $product->brand->url() }}" class="brand-image" >
+                                    @if ($product->brand->logo->exists)
+                                        <img src="{{ $product->brand->logo->path }}" height="100" alt="brand image">
+                                    @else
+                                        <img src="{{ asset('themes/storefront/public/images/image-placeholder.png') }}" class="image-placeholder" alt="brand image">
+                                    @endif
+                                </a>
                                 <h1 class="product-name">{{ $product->name }}</h1>
 
                                 @if (setting('reviews_enabled'))

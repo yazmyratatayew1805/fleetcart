@@ -11,7 +11,7 @@
                         </div>
                     </div>
 
-                    <a href="{{ route('home') }}" class="header-logo">
+                    <a href="{{ route('home') }}" class="header-logo" style="height: 100px">
                         @if (is_null($logo))
                             <h3>{{ setting('store_name') }}</h3>
                         @else

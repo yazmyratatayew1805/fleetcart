@@ -440,7 +440,7 @@ return [
     'ru_KZ' => 'Russian (Kazakhstan)',
     'ru_KG' => 'Russian (Kyrgyzstan)',
     'ru_MD' => 'Russian (Moldova)',
-    'ru_RU' => 'Russian (Russia)',
+    'ru_RU' => 'Russian',
     'ru_UA' => 'Russian (Ukraine)',
     'sg' => 'Sango',
     'sg_CF' => 'Sango (Central African Republic)',
